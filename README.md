@@ -4,8 +4,8 @@ This repo contains an example business website that is built with [Gatsby](https
 
 **The repository is a fork from Austin Green's repository with the following modifications:**
 - Changes the initial page to be the product page, rather than the blog page
-- Incorporates Bootstrap 4
-- Incorporates Font Awesome
+- Incorporates [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- Incorporates [Font Awesome](https://fontawesome.com)
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
