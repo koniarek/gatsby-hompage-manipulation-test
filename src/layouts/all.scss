@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'animations';
+@import 'bootstrap';
+@import 'navbar';
+
+body, html {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: $bg-color;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: $bg-text-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+html{
+	background-color: #424242;
+}
+
+@if $is-fixed-nav {
+	body {
+		margin-top: $header-height;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+::selection {
+  background: $selection-color;
+}
+
+::-moz-selection {
+  background: $selection-color;
+}

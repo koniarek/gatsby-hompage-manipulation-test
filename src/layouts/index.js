@@ -3,7 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
-import './all.sass'
+import './all.scss'
+
+import { faQuestionCircle, faBoxOpen } from '@fortawesome/fontawesome-free-solid';
+import fontawesome from '@fortawesome/fontawesome';
+//fontawesome.library.add(faQuestionCircle, faBoxOpen);
 
 const TemplateWrapper = ({ children }) => (
   <div>
