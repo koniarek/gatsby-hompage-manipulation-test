@@ -3,7 +3,7 @@
 This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms-starter.netlify.com/)**.
 
 **The repository is a fork from Austin Green's repository with the following modifications:**
-- Changes the initial page to be the product page, rather than the blog page
+- Adds a new default home page, rather than the blog page
 - Incorporates [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - Incorporates [Font Awesome](https://fontawesome.com)
 
