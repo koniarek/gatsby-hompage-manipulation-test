@@ -2,10 +2,16 @@
 
 This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms-starter.netlify.com/)**.
 
+## About
 **The repository is a fork from Austin Green's repository with the following modifications:**
 - Adds a new default home page, rather than the blog page
 - Incorporates [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - Incorporates [Font Awesome](https://fontawesome.com)
+
+This project is fully functional and ready to be used as a template to build your next Gatsby + Netlify CMS project in. However, the following features are still under development - PRs welcome :)
+- [ ] Style app using Bootstrap to match the Kaldi template
+- [ ] Add Google Analytics script (and keep 100 score on Page Speed Insights)
+- [ ] Add build server hook
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
